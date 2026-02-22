@@ -1,23 +1,9 @@
-# ED AI Extension
+# ED AI Phase 5 - Hybrid Termux AI
 
-Modular AI Architecture inside Android project.
-
-## Structure
-
-- ai_core/ → AI engine layer
-  - python/ → core scripts
-  - models/ → llama.cpp model files
-  - embeddings/ → local vector storage
-- tool-engine/ → Safe command execution + hooks
-- memory/ → Conversation memory
-- scripts/ → Termux bridge
-
-## Roadmap
-
-Phase 1 → Fake local AI  
-Phase 2 → llama.cpp integration + embeddings  
-Phase 3 → Safe tool execution + command hooks  
-Phase 4 → Memory + embeddings integrated into LLM loop  
-Phase 5 → Hybrid cloud fallback  
-
-Built by DNYF TETCH
+Features:
+- Local LLM (Phase 4)
+- Cloud fallback for heavy prompts
+- Memory + embeddings integration
+- Safe tool execution
+- Voice + live modes
+- Plugin / research mode

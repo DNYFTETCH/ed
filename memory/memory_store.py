@@ -1,8 +1,7 @@
 memory_log = []
 
-def store(message):
-    memory_log.append(message)
+def store(msg):
+    memory_log.append(msg)
 
 def recall():
-    # Return last 5 messages
-    return "\n".join(memory_log[-5:])
+    return "\n".join(memory_log[-10:])  # last 10 messages
