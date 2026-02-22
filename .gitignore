@@ -1,4 +1,5 @@
 ai-core/models/*.gguf
+ai-core/embeddings/*.json
 __pycache__/
 *.pyc
 *.log
