@@ -1,3 +1,3 @@
 #!/bin/bash
-# Run fake LLM and optionally execute tool commands
+# AI now uses memory + embeddings
 python3 ai-core/python/fake_llm.py "$@"

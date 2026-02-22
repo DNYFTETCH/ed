@@ -17,7 +17,7 @@ Modular AI Architecture inside Android project.
 Phase 1 → Fake local AI  
 Phase 2 → llama.cpp integration + embeddings  
 Phase 3 → Safe tool execution + command hooks  
-Phase 4 → Memory embeddings  
+Phase 4 → Memory + embeddings integrated into LLM loop  
 Phase 5 → Hybrid cloud fallback  
 
 Built by DNYF TETCH

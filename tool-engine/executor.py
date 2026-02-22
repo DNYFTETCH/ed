@@ -1,6 +1,5 @@
 import subprocess
 
-# Only allow safe commands
 ALLOWED_COMMANDS = ["ls", "pwd", "whoami", "date", "uptime"]
 
 def safe_execute(command):
@@ -13,8 +12,6 @@ def safe_execute(command):
             return f"Error executing command: {e}"
     return f"Command not allowed: {command}"
 
-# Command hook example for AI integration
+# Hook example
 def run_hook(ai_command):
-    # AI can request a safe command
-    response = safe_execute(ai_command)
-    return response
+    return safe_execute(ai_command)

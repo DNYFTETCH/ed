@@ -1,5 +1,4 @@
 import os
-
 LLAMA_MODEL_PATH = "ai-core/models/llama_model.gguf"
 
 def run_llama(prompt):
