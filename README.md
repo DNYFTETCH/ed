@@ -4,7 +4,7 @@ Modular AI Architecture inside Android project.
 
 ## Structure
 
-- ai-core/ → AI engine layer
+- ai_core/ → AI engine layer
   - python/ → core scripts
   - models/ → llama.cpp model files
   - embeddings/ → local vector storage
