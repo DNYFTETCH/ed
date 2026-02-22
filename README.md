@@ -1,9 +1,17 @@
-# ED AI Phase 5 - Hybrid Termux AI
+# ED AI Phase 5+ Production Termux AI
 
 Features:
-- Local LLM (Phase 4)
-- Cloud fallback for heavy prompts
-- Memory + embeddings integration
+- Hybrid AI Engine: Local LLM + Cloud fallback
+- Memory + Embeddings integrated
 - Safe tool execution
-- Voice + live modes
-- Plugin / research mode
+- Live voice commands and TTS
+- Interactive UI Head
+- Command recommendations
+- Plugin/research mode for extra info
+
+# Usage
+./scripts/termux_bridge.sh "Hello AI"
+./scripts/voicecmd.sh
+./scripts/tts.sh "Text to speak"
+./scripts/uihead.sh
+./scripts/recommend.sh
